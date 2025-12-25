@@ -1,0 +1,10 @@
+cognito_url: cognito_url
+issuer_url: issuer_url
+client_id: client_id
+user_pool_id: user_pool_id
+cognito_headers:
+  signup: AWSCognitoIdentityProviderService.SignUp
+  confirm_signup: AWSCognitoIdentityProviderService.ConfirmSignUp
+  content_type: application/x-amz-json-1.1
+  initiate-auth: AWSCognitoIdentityProviderService.InitiateAuth
+resource_url_1: resource_url_1
